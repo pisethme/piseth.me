@@ -135,7 +135,7 @@
       const formData = new FormData(form);
 
       try {
-        const response = await fetch('https://script.google.com/macros/s/AKfycbyvrOfyZPSlwTLPoOqx6yPZXD3CKkVj504gfGhAQ_kH4zwyceQfyOCuUyh3IG3Sm6VRHA/exec', {
+        const response = await fetch('https://script.google.com/macros/s/AKfycby76TAAvAtbSGo3lUubZ1mUwIeGHXTTP7ezRDzrYfyquazt5lfyr1GrtSVCx-i9XegCOQ/exec', {
           method: 'POST',
           body: JSON.stringify({
             message: formData.get('message'),
